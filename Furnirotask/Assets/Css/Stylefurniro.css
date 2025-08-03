@@ -1,0 +1,350 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: var(--fontfamily);
+}
+
+:root {
+    --text-color: var(--black, #000);
+    --gray-color: #9F9F9F;
+    --white-color: #FFFFFF;
+    --sand-color: #b98e2e;
+    --darkgray:#333333;
+    --fs-small: 0.875rem;
+    --fs-1: 2rem;
+    --fs-2: 1.5rem;
+    --fs-3: 1.25rem;
+    --fs-4: 1.125rem;
+    --fs-5: 1rem;
+    --fs-xsmall: 0.75rem;
+    --fs-large: 3.25rem;
+    --fs-medium: 2.5rem;
+
+}
+
+
+.list-unstyled {
+    display: flex;
+    color: var(--text-color);
+    justify-content: space-between;
+    font-family: var(--fontfamily);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+}
+
+.list-unstyled a {
+    margin: 20px;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    height: 670px;
+    max-width: 1440px;
+    margin-inline: auto;
+}
+
+.banner {
+    background: url(../Images/scandinavian-interior-mockup-wall-decal-background\ 1.png);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.banner div {
+    width: 643px;
+    height: 443px;
+    background-color: antiquewhite;
+    margin-top: 85px;
+    margin-right: 55px;
+    border-radius: 2%;
+}
+
+.banner div div {
+    width: 561px;
+    height: 344px;
+    border-radius: 0%;
+    margin-top: 100px;
+    margin-right: 10%;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-inline: 2.25rem 2.6875rem;
+    max-width: 500px;
+    border-radius: var(--fs-xsmall);
+}
+
+.banner-subtitle {
+    font-size: var(--fs-5);
+    letter-spacing: 3px;
+    color: var(--darkgray);
+    margin-bottom: 0.25rem;
+}
+
+.banner-heading {
+    font-size: var(--fs-large);
+    color: var(--sand-color);
+    font-weight: 700;
+    margin-bottom: var(--fs-5);
+    line-height: 1.3;
+}
+
+.banner-content button {
+    display: inline-block;
+    background-color: var(--sand-color);
+    color: var(--sand-color);
+    border-color: var(--sand-color);
+    padding-inline: 2.5rem;
+    padding-block: var(--fs-5);
+    margin-top: 10%;
+}
+
+.banner-content button a{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.range {
+    width: 80%;
+    height: 700px;
+    /* background-color: rgb(247, 232, 205); */
+    margin: auto;
+    padding-top: 80px;
+}
+
+.heading {
+    width: 50%;
+    height: 56px;
+    /* background-color: #c29393; */
+    margin: auto;
+    padding-top: 3px;
+}
+
+.heading h3 {
+    font-size: var(--fs-1);
+    margin-left: 30%;
+    /* padding-top: 3px; */
+}
+
+.heading p {
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+.main {
+    width: 100%;
+    height: 550px;
+    margin-top: 50px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.rooms {
+    width: 30%;
+    height: 550px;
+    /* background-color: var(--gray-color); */
+}
+
+.roomimage {
+    width: 100%;
+    height: 480px;
+    /* background-color: var(--white-color); */
+    border-radius: 2%;
+}
+
+.rooms h3 {
+    text-align: center;
+    margin-top: 10%
+}
+
+.rooms img {
+    width: 100%;
+    height: 100%;
+    border-radius: 2%;
+}
+
+/* Products Section */
+
+.container .products {
+    width: 1236px;
+    height: 1150px;
+    /* background-color: var(--gray-color); */
+    margin: auto;
+    margin-top: 100px;
+}
+
+.row {
+    width: 100%;
+    height: 480px;
+    /* background-color: rebeccapurple; */
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.P-heading h2 {
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 2%;
+    margin-top: 2%;
+}
+
+.singleproduct {
+    width: 23%;
+    height: 450px;
+    background-color: #F4F5F7;
+
+}
+
+.imagecontainer {
+    width: 100%;
+    height: 325px;
+    /* background-color: antiquewhite; */
+}
+
+.imagecontainer img {
+    width: 100%;
+    height: 100%;
+}
+
+.offprice {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(250, 98, 98);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 14.5%;
+    margin-top: 1%;
+    padding-top: 0.7%;
+    padding-left: 0.2%;
+}
+
+.offprice p {
+    color: var(--white-color);
+}
+
+.newproducts {
+    width: 40px;
+    height: 40px;
+    background-color: #2EC1AC;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 14.5%;
+    margin-top: 1%;
+    padding-top: 0.7%;
+    padding-left: 0.3%;
+}
+
+.newproducts p {
+    color: var(--white-color);
+}
+
+.product-details {
+    width: 100%;
+    height: calc(100% - 301px);
+    padding: 1rem 1.25rem 1.875rem 1rem;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.product-details h3 {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0.2rem;
+}
+
+.product-details p {
+    font-size: var(--fs-small);
+    color: #666;
+    margin: 0.2rem 0;
+}
+
+.product-details del {
+    font-size: 0.8rem;
+    color: #999;
+    margin-left: 0.5rem;
+}
+
+.products button{
+    border-color: var(--sand-color);
+    color: var(--sand-color);
+    background-color: var(--white-color);
+    font-weight:bold;
+    font-size: larger;
+    width: 9rem;
+    height: 3rem;
+    margin-left: 45%;
+    margin-top: 2.2%;
+}
+
+.box {
+    width: 30%;
+    height: 350px;
+    /* background-color: aquamarine; */
+    padding: 3rem;
+}
+
+.box input {
+    border: none;
+    border-bottom: 2px solid #000;
+    padding-bottom: 7px;
+    margin-top: 1em;
+}
+
+.box button {
+    border: none;
+    border-bottom: 2px solid #000;
+    padding-bottom: 7px;
+    margin-left: 1em;
+    background-color: var(--white-color);
+}
+
+h5 {
+    color: var(--gray-color);
+    margin-bottom: 3rem;
+}
+
+.container-footer {
+    justify-content: space-between;
+    border-top: 1px #b5b5b5 solid;
+    border-bottom: 1px #b5b5b5 solid;
+    height: 395px;
+    width: 80%;
+    margin: auto;
+}
+
+.box p {
+    color: var(--gray-color);
+    line-height: 25px
+}
+
+.smallbox {
+    width: 50%;
+    height: 395px;
+
+}
+
+.smallbox ul li {
+    line-height: 65px;
+
+}
+
+.smallbox ul li a {
+    text-decoration: none;
+    color: var(--text-color);
+}
