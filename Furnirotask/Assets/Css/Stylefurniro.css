@@ -285,10 +285,10 @@ nav {
     color: var(--sand-color);
     background-color: var(--white-color);
     font-weight:bold;
-    font-size: larger;
-    width: 9rem;
+    font-size: large;
+    width: 13rem;
     height: 3rem;
-    margin-left: 45%;
+    margin-left: 42%;
     margin-top: 2.2%;
 }
 
